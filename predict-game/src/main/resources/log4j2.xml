@@ -22,7 +22,7 @@
         </RollingFile>
     </Appenders>
     <Loggers>
-        <AsyncRoot level="debug">
+        <AsyncRoot level="info">
             <AppenderRef ref="STDOUT"/>
             <!--<AppenderRef ref="ROLLINGFILE"/>-->
         </AsyncRoot>
